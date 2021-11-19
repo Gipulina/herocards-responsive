@@ -102,12 +102,12 @@ h2{
     font-size: 20px;
     font-weight: 200px;
     position: absolute;
-    top:158px;
+    top:168px;
     text-transform: uppercase;
 }
 article p{
     position: absolute;
-    top:183px;
+    top:193px;
     margin:10px;
 }
 
@@ -116,11 +116,21 @@ article p{
 /**** Button */
 
 button{
-    position: relative;
+    position: absolute;
     height: 60px;
-    width: 70px;
+    color:white;
+    min-width: 120px;
     background-color: #00669F;
-    top:259px;
+    top:398px;
+    text-shadow: black 1.5px 1px 1px;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    border-style:none;
+}
+button:hover{
+    text-shadow: black 1.5px 1px 6px;
+    box-shadow: lightblue 2px 3px 2px;
+
 }
 /**** End Button */
 .card .foto-back img, .card{
