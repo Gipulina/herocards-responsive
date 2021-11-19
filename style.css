@@ -70,10 +70,11 @@ header h1{
 
 /********* imgs cards */
 .foto-back img{
-    width: 86.5vw;
+    width: 292px;
     height: 19vh;
     position: absolute;
     top:0;
+    object-fit:fill;
 }
 .superh{
     border-radius: 50%;
