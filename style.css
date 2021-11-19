@@ -78,28 +78,56 @@ header h1{
 }
 .superh{
     border-radius: 50%;
-    height: 17.5vh;
+    height: 14.5vh;
     position: relative;
 }
 .center{
     position: relative;
     height: 100px;
-    top:43px;
+    top:50px;
     display: flex;
     justify-content: center;
+}   
+
+/* End imgs cards */
+
+/**** Cards Texts */
+article{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 20px;
+    font-weight: 200px;
+    position: absolute;
+    top:158px;
+    text-transform: uppercase;
+}
+article p{
+    position: absolute;
+    top:183px;
+    margin:10px;
 }
 
-/* end imgs cards */
+/* End Texts */
+
+/**** Button */
+
+button{
+    position: relative;
+    height: 60px;
+    width: 70px;
+    background-color: #00669F;
+    top:259px;
+}
+/**** End Button */
 .card .foto-back img, .card{
     border-radius: 16px 16px 0px 0px;
     background-color: #F3F3F3;
 }
-/****** Boton */
-button{
-    height: 100px;
-    width: 150px;
-    background-color: #00669F;
-}
+
 /* Footer */
 footer {
     min-width:320px;
