@@ -99,10 +99,11 @@ article{
     align-items: center;
 }
 h2{
-    font-size: 20px;
+    font-size: 23px;
+    letter-spacing: 2px;
     font-weight: 200px;
     position: absolute;
-    top:168px;
+    top:170px;
     text-transform: uppercase;
 }
 article p{
