@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    /* background-color: #E5E5E5; */
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* 760px a 320px */
+body{
+    min-width:320px;
+    min-height: 760px;
+    border: black solid 2px;
+}
+main{
+        background-color: #E5E5E5;
+        position: relative;
+}
+/***** Header */
+header p{
+    background-color: blueviolet;
+    background-color:#D1891C;
+    display: flex;
+    padding: 2px 2px 2px 20px;
+    width: auto;
+}
+header h1{
+    height: 34px;
+    background-color: #00669F;
+    color:white;
+    font-size:17px;
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+    width: auto;
+    font-weight: 400;   
+}
+/* Fin Header */
+/****** Cartas */
+.cartas{
+    display: flex;
+    flex-direction: column;
+    border: yellowgreen 5px solid;
+    width: auto;
+    align-items: center;
+    position: relative;
+}
+.card{
+    margin:10px;
+    width: 200px;
+    height: 60vh;
+    padding-top:10px;
+    margin-top: 10px;
+    background-color:tomato;
+    position: relative;
+}
+/****** Like Icon */
+.fa-heart{
+    position: absolute;
+    color:red;
+    font-size: 18px;
+    top:7px;
+    left:8px;
+}
+.fa-heart:hover{
+    font-weight: 400;
+    text-shadow: 2px 2px 6px mediumvioletred;
+}
+/* End Like icon */
+
+/********* imgs cards */
+.foto-back img{
+    width: 38.4vh;
+    height: 24vh;
+    position: absolute;
+    top:0;
+}
+.superh{
+    border-radius: 50%;
+    height: 17.5vh;
+    position: relative;
+}
+.center{
+    position: relative;
+    height: 100px;
+    top:43px;
+    display: flex;
+    justify-content: center;
+}
+
+/* end imgs cards */
+.card .foto-back img, .card{
+    border-radius: 16px 16px 0px 0px;
+    background-color: #F3F3F3;
+}
+/****** Boton */
+button{
+    height: 100px;
+    width: 150px;
+    background-color: #00669F;
+}
+/* Footer */
+footer {
+    min-width:320px;
+    /* border: tomato solid 2px; */
+    min-height: 26px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #00669F; 
+    bottom:0;
+}
+footer > *{
+    background-color: #00669F; 
+    display: flex;
+
+}
+
+footer p{
+    font-size: 1.2vh;
+    color:white;
+    padding-left:23%;
+}
+
+footer img{
+    height: 2.5vh;
+    /* border: green solid 2px; */
+    width: auto;
+    margin: 10px;
+    margin-right: 15px;
+}
+
+/* 1200px a 1600px */
+
+/* 900px a 1200px */
+/* 760px a 900px */
+/* 760px a 320px */
