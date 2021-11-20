@@ -10,7 +10,7 @@
 body{
     min-width:320px;
     min-height: 760px;
-    border: black solid 2px;
+    /* border: black solid 2px; */
 }
 main{
         background-color: white;
@@ -41,7 +41,7 @@ header h1{
     top:28px;
     display: flex;
     flex-direction: column;
-    border: yellowgreen 5px solid;
+    /* border: yellowgreen 5px solid; */
     width: auto;
     align-items: center;
     position: relative;
@@ -160,18 +160,18 @@ footer {
 }
 footer > *{
     background-color: #00669F; 
-    display: flex;
+    /* display: flex; */
 
 }
 
 footer p{
     font-size: 1.2vh;
     color:white;
-    padding-left:23%;
+    padding-left:34px;
 }
 
 footer img{
-    height: 2.5vh;
+    height: 1.5vh;
     /* border: green solid 2px; */
     width: auto;
     margin: 10px;
@@ -181,16 +181,17 @@ footer img{
 /*****Button to add  */
 #add{
     position:absolute;
-    top:170px;
+    top:180px;
     right:54px;
     background-color: #00669F;
 }
 
 .adding{
     border-radius: 50%;
-    min-width: 40px;
-    height: 40px;
+    min-width: 50px;
+    height: 50px;
     color:white;
+    font-size: 35px;
 }
 
 /*End Button to add  */
