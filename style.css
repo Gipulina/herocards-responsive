@@ -6,7 +6,8 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-/* 760px a 320px */
+
+ 
 body{
     min-width:320px;
     min-height: 760px;
@@ -45,12 +46,12 @@ header h1{
     width: auto;
     align-items: center;
     position: relative;
-    background-color: white;
+    /* background-color: white; */
 }
 .card{
     margin:10px;
     width: 292px;
-    height: 72vh;
+    height: 74vh;
     padding-top:10px;
     margin-bottom: 68px;
     background-color:tomato;
@@ -167,7 +168,7 @@ footer > *{
 footer p{
     font-size: 1.2vh;
     color:white;
-    padding-left:34px;
+    padding-left:44px;
 }
 
 footer img{
@@ -181,9 +182,12 @@ footer img{
 /*****Button to add  */
 #add{
     position:absolute;
-    top:175px;
-    right:66px;
-    background-color: #00669F;
+    top:591px;
+    right:-6px;
+    margin-right: 50px;
+    display: flex;
+    min-width: 70px;
+    height: 70px;
 }
 
 .adding{
@@ -191,17 +195,87 @@ footer img{
     min-width: 50px;
     height: 50px;
     color:white;
-    font-size: 35px;
-}
-.harley{
-    visibility: hidden;
-    background-size: cover;
-    display: none;
+    font-size: 44px;
+    text-align: center;
+    background-color: #00669F;
 }
 /*End Button to add  */
+.harley{
+    display: none;
+}
 
+/* --->>>>>>>> 900 * 1200 <<<<<<<<<<----*/
+@media screen and (min-width: 570px) {
+
+    .harley{
+        display:block;    
+    }
+    .cartas{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height: 80vh;
+    }
+    #add{
+        position:absolute;
+        top:592px;
+        right:-45px;
+        margin-right: 50px;
+        display: flex;
+        min-width: 70px;
+        height: 70px;
+    }
+    .adding{
+        background-color: #00669F;
+        position: absolute;
+        color:white;
+        text-shadow: ;
+        right:20%;
+        margin-right:10px;
+        margin-left:100px;
+        top:30px;
+        text-align: center;
+        font-size: 58px;
+        min-width: 70px;
+        height: 70px
+    }
+    .addin:hover{
+        text-shadow: black 1.5px 1px 6px;
+        box-shadow: lightblue 2px 3px 2px;
+    
+    }
+    /* Footer */
+    footer {
+        min-width:320px;
+        min-height: 26px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        /* position: relative; */
+        bottom:0;
+    }
+
+    footer p{
+        font-size: 1.2vh;
+        color:white;
+        position:inherit;
+        margin-right:25%;
+        margin-left:40%;
+        padding-left:85px;
+    }
+
+    footer img{
+        height: 2.5vh;
+        width: auto;
+        margin: 13px;
+        /* margin-right: 95px; */
+    }
+}
 /* 1200px a 1600px */
 
 /* 900px a 1200px */
-/* 760px a 900px */
+
 /* 760px a 320px */
